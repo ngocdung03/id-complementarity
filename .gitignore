@@ -1,0 +1,18 @@
+# Datasets (licences restrict redistribution)
+data/
+
+# Regenerated artifacts: manifests (carry per-image grades), caches, features,
+# checkpoints, per-image predictions, logs
+artifacts/
+
+*.npz
+*.pt
+*.pth
+*.joblib
+*.pdf
+*.png
+*.log
+
+__pycache__/
+*.pyc
+.pytest_cache/
